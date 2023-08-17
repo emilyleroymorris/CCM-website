@@ -45,6 +45,7 @@ h2{
 		text-align:center;
 		background-color: #213363;
 		color: white;
+		box-shadow: 5px 5px 10px rgba(23, 89, 74, .5);
 	}
 
 #subtitle{
@@ -158,4 +159,6 @@ hr{
 border: 1px solid #17594A;
   width:1100px;
 }
+
+
 .clearfloat {clear: both;}
