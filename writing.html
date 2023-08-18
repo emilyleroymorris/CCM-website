@@ -17,17 +17,25 @@
 
 h1{	margin-top: 0px;}
 
+h4{
+	font-size:18px;
+	color
+}
+
 .book-title{
 	width:800px;
 	margin: 0 auto;
 	padding:30px;
-	height:300px;
+	
 }
 
 .book-title p{
 	float:left;
+	
+}
+
+.description {
 	width:550px;
-	height:150px;
 }
 
 .book-title img{
@@ -39,13 +47,37 @@ h1{	margin-top: 0px;}
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
+.book-title a{
+	text-decoration: none;
+	color:#17594A;
+}
 
+.book-chapters a{
+	text-decoration: none;
+	color:#17594A;
+}
+
+.book-chapters a:hover{
+	text-shadow:2px 2px 8px  rgba(142, 172, 90, .7);
+}
+
+.book-title a:hover{
+	text-shadow: 2px 2px 1px rgba(142, 172, 90, .3);
+}
+
+.book-title img:hover{
+	box-shadow: 2px 6px 10px 1px  rgba(142, 172, 90, .7);
+}
+
+.featured-articles img:hover{
+	box-shadow: 2px 6px 10px 1px  rgba(211, 211, 211);
+}
 
 .featured-articles{
 	width:545px;
-	height:200px;
+	height:250px;
 	float:left;
-	margin-bottom:30px;
+	margin-bottom:20px;
 }
 
 .featured-articles img{
@@ -53,15 +85,23 @@ h1{	margin-top: 0px;}
 	height:100px;
 	object-fit: cover;
 	float:left;
-	margin:50px 5px;
+	margin:20px 5px;
 	display:inline-block;
 }
 
 .featured-articles p{
 	width:300px;
 	display:inline-block;
-	margin:50px 5px;
+	margin:5px 5px;
 }
+
+.featured-articles a{text-decoration: none;
+	color:#17594A;
+}
+
+.featured-articles a:hover{
+	text-shadow:2px 2px 8px  rgba(142, 172, 90, .7);
+}}
 
 </style>
 
@@ -93,78 +133,118 @@ h1{	margin-top: 0px;}
 
 <h2 class="width-1100">Books</h2>
 <div class="book-title">
-	<img src="images/default-photo.jpeg" alt="highlight photo"/>
-	<h3>title</h3>
-	<p>Fall over dead (not really but gets sypathy) jump up to edge of bath, fall in then scramble in a mad panic to get out or stand in doorway, unwilling to chose whether to stay in or go out hack up furballs and peer out window, chatter at birds, lure them to mouth, pooping rainbow while flying in a toasted bread costume in space, swat at dog. </p>
+	<a href="https://www.amazon.com/The-Big-Muddy-Environmental-Mississippi/dp/0195316916"><img src="images/big-muddy.jpg" alt="The Big Muddy cover photo"/></a>
+	<h3><a href="https://www.amazon.com/The-Big-Muddy-Environmental-Mississippi/dp/0195316916">The Big Muddy: An Environmental History of the Mississippi and Its Peoples from Hernando de Soto to Hurricane Katrina</a></h3>
+	<p class="description">The first long-term environmental history of the Mississippi, this book spans five centuries to discuss the interaction between people and the landscape, from early hunter-gatherer bands to present-day industrial and post-industrial society. Hernando de Soto found an incredibly vast wetland. But since then, much has changed. By the 1890s, the valley was rapidly drying as a consequence of intensified human meddling--including deforestation, swamp drainage, monocropping, and most monumentally, the reconstruction of the river itself, largely under the direction of the Army Corps of Engineers—which repressed the valley’s essential wet nature. However, a repressed wet nature had a habit of returning, often in unrecognized forms, including drought, disease, and spontaneously combusting swamplands, but always, of course, by flooding. Valley residents have been paying the price for these human interventions, for the repression of the valley’s nature. And nature keeps returning with ever more damaging symptoms of its pathological condition, most visibly with the disaster that followed Hurricane Katrina. </p>
+
+	<h4>Reviews</h4>
+	<p> "What is remarkable and fresh about this scholarly study of the Mississippi in the longue duree is its comprehensiveness, density, and nuance, as well as the fresh research upon which it is based. It is a sturdy, grand, and at times stunning achievement, deeply rooted in substantial interdisciplinary research and brimming with insight."--<em>American Historical Review</em></p>
+
+	<p>“Seven years ago this month, Hurricane Katrina triggered massive flooding in the valley of the Mississippi. The environmental backstory of the catastrophe is as rich as river sediment, and historian Christopher Morris takes us through 500 years of it. The valley's metamorphosis from vast wetland staked out by France and Spain to a patchwork of development — drained swamp,levees, deforestation, industry and poor urban planning — is powerfully recounted.” --<em>Nature</em></p>
+
+	<p>"Elegantly written, <em>The Big Muddy</em> is a sweeping environmental history of a famous river told with an eye toward the relationship between water and land." --<em>Journal of American History</em></p>
 </div>
+<div class="clearfloat"></div>
 
 <div class="book-title">
-	<img src="images/default-photo.jpeg" alt="highlight photo"/>
-	<h3>title</h3>
-	<p>Fall over dead (not really but gets sypathy) jump up to edge of bath, fall in then scramble in a mad panic to get out or stand in doorway, unwilling to chose whether to stay in or go out hack up furballs and peer out window, chatter at birds, lure them to mouth, pooping rainbow while flying in a toasted bread costume in space, swat at dog. </p>
+	<a href="https://www.amazon.com/Becoming-Southern-Evolution-Vicksburg-Mississippi/dp/0195134214"><img src="images/becoming-southern.jpg" alt="Becoming Southern book cover"/></a>
+	<h3><a href="https://www.amazon.com/Becoming-Southern-Evolution-Vicksburg-Mississippi/dp/0195134214">Becoming Southern: The Evolution of a Way of Life, Warren County and Vicksburg, Mississippi, 1770-1860</a></h3>
+	<p class="description">This study challenges the old notion of an economic and culturally static South that stood in contrast to a dynamic North and argues that the South became different from the North. At the end of the 18 th century Mississippi was socially, economically, and culturally more western than southern, having more in common with Illinois than with South Carolina. However, when men increasingly and often violently seized control over extended kin networks to acquire land and slaves, an emerging patriarchy redefined relations between masters and slaves, husbands and wives, planters and yeoman farmers, and this western place became the southern place that its white residents defended in the Civil War. </p>
+
+	<h4>Reviews</h4>
+	<p>"Christopher Morris displays the enviable ability to combine analytical sophistication and detailed analysis of local sources with a strong narrative and appropriate generalisations...[A] valuable source for students of all aspects of antebellum southern life." -- <em>American Studies Today</em></p>
+
+	<p>"Morris's research is prodigious, his presentation captivating." --<em>New Orleans Review</em></p>
+
+	<p>"This thoughtful, well-written study doubtless will be widely read and deservedly influential."-- <em>American Historical Review</em></p>
+
 </div>
 
 </div> <!--end books-->
 
-
-
-<hr>
-<div class="width-1100">
-<h2 class="width-1100">Featured Articles</h2>
-
-<div class="featured-articles">
-	<img src="images/default-photo.jpeg" alt="highlight photo"/>
-	<p>Stinky cat just going to dip my paw in your coffee and do a taste test - oh never mind i forgot i don't like coffee - you can have that back now i like frogs</p>
-</div>
-
-<div class="featured-articles">
-	<img src="images/default-photo.jpeg" alt="highlight photo"/>
-	<p>Fall over dead (not really but gets sypathy) jump up to edge of bath, fall in then scramble in a mad panic to get out or stand in doorway, unwilling to chose whether to stay in or go out hack up furballs and peer out window, chatter at birds, lure them to mouth, pooping rainbow while flying in a toasted bread costume in space, swat at dog. </p>
-</div>
-
-<div class="clearfloat"></div>
-
-<div class="featured-articles">
-	<img src="images/default-photo.jpeg" alt="highlight photo"/>
-	<p>Stinky cat just going to dip my paw in your coffee and do a taste test - oh never mind i forgot i don't like coffee - you can have that back now i like frogs</p>
-</div>
-
-<div class="featured-articles">
-	<img src="images/default-photo.jpeg" alt="highlight photo"/>
-	<p>Fall over dead (not really but gets sypathy) jump up to edge of bath, fall in then scramble in a mad panic to get out or stand in doorway, unwilling to chose whether to stay in or go out hack up furballs and peer out window, chatter at birds, lure them to mouth, pooping rainbow while flying in a toasted bread costume in space, swat at dog. </p>
-</div>
-
-<div class="clearfloat"></div>
-
-</div> <!--end featured articles section-->
 
 <hr>
 <div class="width-1100">
 <h2 class="width-1100">Book Chapters & Articles</h2>
 
 <div class="book-chapters">
-	<h3>title</h3>
-	<p>Stinky cat just going to dip my paw in your coffee and do a taste test - oh never mind i forgot i don't like coffee - you can have that back now i like frogs</p>
+	<h3>"<a href="https://lsupress.org/books/detail/charting-the-plantation-landscape-from-natchez-to-new-orleans/">The Rise and Fall of Uncle Sam Plantation</a>,” Charting the Plantation Landscape: Natchez to New Orleans, ed. Laura Kilcer VanHuss (Baton Rouge: LSU Press, 2021), 191-222.</h3>
+	<p>Charting the Plantation Landscape from Natchez to New Orleans examines the hidden histories behind one of the nineteenth-century South’s most famous maps: Norman’s Chart of the Lower Mississippi River, created by surveyor Marie Adrien Persac before the Civil War and used for decades to guide the pilots of river vessels. In this collection, contributors from a variety of disciplines consider the histories that Persac’s map omitted, exploring plantations not as sites of ease and plenty, but as complex legal, political, and medical landscapes. Christopher Morris uses the famed Uncle Sam Plantation to explain how plantations have been memorialized, remembered, and preserved.</p>
 </div>
 
 <div class="book-chapters">
-	<h3>title</h3>
-	<p>Fall over dead (not really but gets sypathy) jump up to edge of bath, fall in then scramble in a mad panic to get out or stand in doorway, unwilling to chose whether to stay in or go out hack up furballs and peer out window, chatter at birds, lure them to mouth, pooping rainbow while flying in a toasted bread costume in space, swat at dog. </p>
+	<h3>"<a href="https://www.journalofthecivilwarera.org/december-2020-vol-10-no-4/">The New History of Slavery and Capitalism: Déjà Vu All Over Again</a>,” Journal of the Civil War Era 10 (December 2020): 524-557.</h3>
+	<p>This essay compares recent studies of slavery and capitalism, their critical reception, and the social, cultural, and political context of their appearance in the early 2010s with the appearance and reception of similar studies in the 1970s. </p>
 </div>
 
 <div class="book-chapters">
-	<h3>title</h3>
-	<p>Fall over dead (not really but gets sypathy) jump up to edge of bath, fall in then scramble in a mad panic to get out or stand in doorway, unwilling to chose whether to stay in or go out hack up furballs and peer out window, chatter at birds, lure them to mouth, pooping rainbow while flying in a toasted bread costume in space, swat at dog. </p>
+	<h3>"<a href="https://experts.illinois.edu/en/publications/mapping-the-great-lakes-the-somageography-of-water-and-land-1615-">Mapping the Great Lakes: The Somageography of Water and Land, 1615-1828</a>,” co-authors Robert Markley, U. of Illinois, Michael Simeone, Arizona State U., Kenton McHenry, National Center for Supercomputing Applications. Eighteenth-Century Fiction (October 2019): 169-195.</h3>
+	<p>Building on our earlier computational analysis of 237 digitized maps of the Great Lakes, we use maps and accounts of Lake Huron, bookended by those of Samuel de Champlain (1616) and Henry Bayfield (1828), to explore the concept of “somageography”: how first-hand experiences with natural environments are filtered and reconfigured by map-makers, rendering maps as irreducibly complex representations of particular human and environmental conditions. </p>
 </div>
 
 <div class="book-chapters">
-	<h3>title</h3>
-	<p>Fall over dead (not really but gets sypathy) jump up to edge of bath, fall in then scramble in a mad panic to get out or stand in doorway, unwilling to chose whether to stay in or go out hack up furballs and peer out window, chatter at birds, lure them to mouth, pooping rainbow while flying in a toasted bread costume in space, swat at dog. </p>
+	<h3>"<a href="https://www.journal18.org/issue5/the-canoe-and-the-superpixel-image-analysis-of-the-changing-shorelines-on-historical-maps-of-the-great-lakes/">The Canoe and the Superpixel: Image Analysis of the Changing Shorelines of Historical Maps of the Great Lakes</a>," co-authors Robert Markley, U. of Illinois, Michael Simeone, Arizona State U., Kenton McHenry, National Center for Supercomputing Applications. Journal18: A Journal of Eighteenth-Century Art and Culture (Spring 2018), http://www.journal18.org/2619</h3>
+	<p>The study of historical maps as a group or body poses interpretive challenges on a number of fronts: maps are representations of geophysical spaces, and yet they are also works of art, produced, exchanged, and viewed within the commercial and sociopolitical contexts of the cartographers’ time and culture.</p>
+</div>
+
+<div class="book-chapters">
+	<h3>"<a href="https://openrivers.lib.umn.edu/article/disturbing-the-mississippi-the-language-of-science-engineering-and-river-restoration/">Disturbing the Mississippi: The Language of Science, Engineering, and River Restoration</a>," Open Rivers: Rethinking the Mississippi Second Issue (Spring 2016), online at http://editions.lib.umn.edu/openrivers/.</h3>
+	<p>From top to bottom, projects aimed at restoring the Mississippi River are underway in both deed and word. In the area of the Twin Cities, the U. S. Army Corps of Engineers is dredging pools along the floodplain and using the sediment to construct islands and restore wetland fish and waterfowl habitat...<a href="https://openrivers.lib.umn.edu/article/disturbing-the-mississippi-the-language-of-science-engineering-and-river-restoration/">Read more</a></p>
+</div>
+
+<div class="book-chapters">
+	<h3>"<a href="https://www.researchgate.net/publication/281844931_Reckoning_with_'The_Crookedest_River_in_the_World'_The_Maps_of_Harold_Norman_Fisk_Southern_Quarterly_Special_Issue_on_the_Mississippi_River_as_Twentieth-Century_Southern_Icon_52_Spring_2015_30-44">Reckoning with ‘The Crookedest River in the World’: The Maps of Harold Norman Fisk</a>,"Southern Quarterly Special Issue on the Mississippi River as Twentieth-Century Southern Icon
+52 (Spring 2015): 30-44.</h3>
+	<p>History, science, and art in Harold Norman Fisk's maps of the Mississippi River. Fisk's mid-twentieth-century maps were intended to lend highly technical support for a plan by the US Army Corps of Engineers to straighten the Mississippi River with a series of cut-offs. Today, Fisk's maps are (mis)read as beautiful reminders of why engineers should leave the river alone.</p>
+</div>
+
+<div class="book-chapters">
+	<h3>"<a href="https://www.researchgate.net/publication/235745342_Wetland_Colonies_Louisiana_Guangzhou_Pondicherry_and_Senegal">Wetland Colonies: Louisiana, Guangzhou, Pondicherry, and Senegal</a>," in Cultivating the Colonies: Colonial States and their Environmental Legacies, edited by Christina Folke Ax, Niels Brimnes, Niklas Thode Jensen, and Karen Oslund (Athens, OH: Ohio University Press, 2011), 135-163.</h3>
+	<p>In 1715 and 1716 Antoine Crozat, director of the French colony of Louisiana, drafted several reports for his investors in France, in which he described the natural environment of the lower Mississippi Valley, detailing its prospects for profitable enterprise and trade...<a href="https://www.researchgate.net/publication/235745342_Wetland_Colonies_Louisiana_Guangzhou_Pondicherry_and_Senegal">Read more</a></p>
+</div>
+
+<div class="book-chapters">
+	<h3>"<a href="https://www.jstor.org/stable/2567218">The Articulation of Two Worlds: The Master-Slave Relationship Reconsidered</a>," Journal of American History 85 (December 1998), 982-1007.</h3>
+	<p>In 1830 or thereabouts Edmond Covington concluded that his hilly mississippi was not well suited to cultivating cotton. He therefore turned his plantation into what he deescribed as a "slave breeding" business, not primarily with the intention of selling slaves, but to increase the capital holdings and assets of the plantation...<a href="https://www.jstor.org/stable/2567218">Read more.</a></p>
 </div>
 
 <div class="clearfloat"></div>
 
 </div>  <!--end book chapters-->
+
+<hr>
+
+<div class="width-1100">
+<h2 class="width-1100">Featured Work</h2>
+
+<div class="featured-articles">
+	<a href="https://www.thecommunity.garden/christopher-morris-university-of-texas-at-arlington/environmental-history-and-the-environmental-humanities-video-documentation"><img src="images/dinner-convo.jpg" alt="Chris Morris presenting over Zoom."/></a>
+	<h4>“<a href="https://www.thecommunity.garden/christopher-morris-university-of-texas-at-arlington/environmental-history-and-the-environmental-humanities-video-documentation">The Environmental Humanities: Side Dish or Main Course? A Dinner Conversation</a>.”</h4>
+	<p>In this video re-enactment of a true event, several historians and literary scholars gather around	the dinner table to enjoy a meal and to discuss the disciplinary and philosophical perspectives of environmental history and the environmental humanities.</p>
+</div>
+
+<div class="featured-articles">
+	<a href="https://www.youtube.com/watch?v=6-axPPKrU98&ab_channel=UnfurrowedGroundFoundation"><img src="images/davis-cup.jpg" alt="Presenting about Davis Cup history"/></a>
+	<h4>“<a href="https://www.youtube.com/watch?v=6-axPPKrU98&ab_channel=UnfurrowedGroundFoundation">The Day Davis Cup Came to Dallas</a>.”</h4>
+	<p>This video is a documentary about the integration of Dallas City Parks and the Davis Cup tennis match between the U.S. and Mexico, played in a newly-integrated Dallas park and featuring a young Arthur Ashe on the nation’s first integrated Davis Cup team.</p>
+</div>
+
+<div class="clearfloat"></div>
+
+<div class="featured-articles">
+	<a href="https://openrivers.lib.umn.edu/article/knowing-the-mississippi/"><img src="images/Mississippi-River.jpg" alt="View of the shore of the Mississippi River."/></a>
+	<h4>"<a href="https://openrivers.lib.umn.edu/article/knowing-the-mississippi/">How I Came to Know the Mississippi River</a></h4>
+	<p>We asked a diverse group of river people to respond to the prompt “How did you come to know the Mississippi River?  What does it mean, to you, to know the Mississippi River?” We present below a few of the responses, in no particular order...<a href="https://openrivers.lib.umn.edu/article/knowing-the-mississippi/">Read more</a></p>
+</div>
+
+<div class="featured-articles">
+	<a href="http://hnn.us/articles/15163.html"><img src="images/Mississippi-River-2.jpeg" alt="highlight photo"/></a>
+	<h4><a href="http://hnn.us/articles/15163.html">In New Orleans, Once Again, the Irony of Southern History</a></h4>
+	<p>Once again the entire country is confronted with the legacy of Reconstruction. It is too simple to chalk the tragedy that continues to unfold in New Orleans to the force of nature, or to an unfathomable God. Hurricanes, like earthquakes, tornadoes, eruptions, and tsunamis, do come, but who or what sends them is only half the story...<a href="http://hnn.us/articles/15163.html">Read more.</a></p>
+</div>
+<div class="clearfloat"></div>
+
+</div> <!--end featured articles section-->
 
 </div> <!-- end container-->
 
