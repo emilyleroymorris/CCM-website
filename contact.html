@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chris Morris | Contact</title>
 
 <link href="style.css" rel="stylesheet"/>
@@ -22,25 +21,35 @@ h1{	margin-top: 0px;}
 	height:400px;
 	object-fit: cover;
 	float:left;
+	margin-top:25px;
 }
 
 #container p{
 	float: left;
 	padding: 10px;
 	width: 700px;
-	white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.button-link {
+#description{
+	width:750px;
+	margin:25px;
+	float:left;
+	text-align:center;
+}
+
+.button-link a{
 	border: 2px solid #17594A;
-	width:100px;
+	width:150px;
 	height:30px;
+	line-height:30px;
 	background-color: white;
 	color:#17594A;
 	text-align:center;
-	padding: 15px 32px;
+	display: block;
+	font-size: 1.2em;
+	padding: 15px 15px;
 	text-decoration: none;
 	border-radius: 8px;
 	display: inline-block;
@@ -48,24 +57,11 @@ h1{	margin-top: 0px;}
 	margin: 4px 2px;
 	box-shadow: 5px 5px 10px rgba(23, 89, 74, .5);
 	float:left;
-	margin-left:160px;
-	position:relative;
+	margin-left:300px;
+	cursor: pointer; 
 }
 
-.button-link a{
-	text-decoration: none;
-	font-size: 20px;
-	line-height:40px;
-	display: block;
-	width:130px;
-	height:40px;
-	padding:10px;
-	color:#17594A;
-	cursor: pointer; 
-	position:absolute;
-	top:0px;
-	left:2px;
-}
+
 
 
 </style>
@@ -91,11 +87,20 @@ h1{	margin-top: 0px;}
 
 <div id="container">
 <img src="images/headshot-1.jpg" alt="Chris Morris at podium"/>
+
+<div id="description">
 	<h2>Christopher Morris</h2>
-	<div class="button-link"><a href="mailto:morris@uta.edu">morris@uta.edu</a></div>
+	<div class="button-link"><a href="mailto:morris@uta.edu">morris@uta.edu</a>
+	</div>
+<div class="clearfloat"></div>
+
+<div class="button-link"><a href="pdfs/CV.pdf">Download CV</a>
+	</div>
 <div class="clearfloat"></div>
 
 
+</div> <!--end description-->
+<div class="clearfloat"></div>
 
 </div> <!-- end container-->
 
