@@ -16,7 +16,7 @@
 
 h1{	margin-top: 0px;}
 
-#container img{
+#description-image img{
 	width:300px;
 	height:400px;
 	object-fit: cover;
@@ -33,7 +33,7 @@ h1{	margin-top: 0px;}
 }
 
 #description{
-	width:750px;
+	width:740px;
 	margin:25px;
 	float:left;
 	text-align:center;
@@ -61,7 +61,71 @@ h1{	margin-top: 0px;}
 	cursor: pointer; 
 }
 
+#gallery {
+			width: 1100px;
+			margin-top:50px;
+			float:right;
+			padding:5px;
+			background-color:rgba(142, 172, 90, .7);
+		border-radius: 2px;
+		}
 
+		img {
+				height: 200px;
+				object-fit:cover;
+				margin:4px;
+				border: 1px solid black;
+
+		}
+
+		.img1{
+			width:385px;
+		}
+
+		.img2{
+			width:300px;
+		}
+
+		.img3{
+			width:540px;
+
+		}
+
+		.img4{
+			width:695px;
+		}
+
+		.img5{
+			width:356px;
+		}
+
+		.image {
+			float: left;
+			overflow: hidden;		
+			position:relative;
+			margin:0;
+			padding:0;
+		}
+
+		.overlay{
+			background-color: rgba(0, 0, 0, 0.6);
+			color:#fff;
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%, -50%);
+			line-height:200px;
+			word-wrap:normal;
+			text-align:center;
+			text-wrap: wrap;
+			visibility:hidden;
+			margin:0px;
+			padding:0;
+		}
+
+		.image:hover .overlay {
+			visibility:visible;
+		}
 
 
 </style>
@@ -86,7 +150,8 @@ h1{	margin-top: 0px;}
 </div> <!-- #nav-wrapper -->
 
 <div id="container">
-<img src="images/headshot-1.jpg" alt="Chris Morris at podium"/>
+
+<div id="description-image"><img src="images/headshot-2.jpg" alt="Chris Morris at podium"/></div>
 
 <div id="description">
 	<h2>Christopher Morris</h2>
@@ -102,6 +167,86 @@ h1{	margin-top: 0px;}
 </div> <!--end description-->
 <div class="clearfloat"></div>
 
+<div id="gallery">
+
+	<!-- row 1 -->
+<div class="image">
+<img src="images/canoe-closeup-1.jpg" alt="Chris Morris leading Canoe trip down the Trinity River." class="img1">
+<div class="overlay">
+	<p>Chris Morris leading Canoe trip down the Trinity River.</p>
+</div>
+</div>
+
+<div class="image">
+<img src="images/Dallas-Audubon.jpg" alt="Photo of Dallas Audubon center taken by Chris Morris." class="img2">
+<div class="overlay">
+	<p>Dallas Audubon center.</p>
+</div>
+</div>
+
+<div class="image">
+<img src="images/dinner-convo2.jpg" alt="Candid photo of the dinner conversation about the environmental humanities." class="img1">
+<div class="overlay">
+	<p>Chris Morris and Stacy Alaimo.</p>
+</div>
+</div>
+
+
+<!-- row 2 -->
+<div class="image">
+<img src="images/canoe2.jpg" alt="Chris Morris's son finds a fossil while tagging along on class trip down the Trinity River." class="img3">
+<div class="overlay">
+	<p>Chris Morris's son finds a fossil on class trip down the Trinity River.</p>
+</div>
+</div>
+
+<div class="image">
+<img src="images/canoe4.jpg" alt="Pile of tires on the shore of the Trinity River." class="img3">
+<div class="overlay">
+	<p>Pile of tires on the shore of the Trinity River.</p>
+</div>
+</div>
+
+<!-- row 3 -->
+<div class="image">
+<img src="images/French-River.jpg" alt="Photo of the French River in Ontario, Canada." class="img4">
+<div class="overlay">
+	<p>Photo of the French River in Ontario, Canada.</p>
+</div>
+</div>
+
+<div class="image">
+<img src="images/antioch-baptist.jpg" alt="Black and white photo of the Antioch Baptist church." class="img1">
+<div class="overlay">
+	<p>Antioch Baptist Church in Warren CO, MS.</p>
+</div>
+</div>
+
+<!-- row 4 -->
+<div class="image">
+<img src="images/Samuel-Fagot-masoleum.jpg" alt="Samuel Fagot masoleum." class="img5">
+<div class="overlay">
+	<p>Samuel Fagot masoleum.</p>
+</div>
+</div>
+
+<div class="image">
+<img src="images/StJames-Parish-Levee.jpg" alt="St. James Parish Levee" class="img5">
+<div class="overlay">
+	<p>St. James Parish Levee.</p>
+</div>
+</div>
+
+<div class="image">
+<img src="images/tenant-farmer-cabin.jpg" alt="Tenant farmer cabin in Warren Country, MS" class="img5">
+<div class="overlay">
+	<p>Tenant farmer cabin in Warren Country, MS.</p>
+</div>
+</div>
+
+<div class="clearfloat"></div>
+</div> <!-- end gallery-->
+<div class="clearfloat"></div>
 </div> <!-- end container-->
 
 <!-- footer -->
