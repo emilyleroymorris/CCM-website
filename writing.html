@@ -57,6 +57,11 @@ h4{
 	color:#17594A;
 }
 
+#book-chapters-container, #featured-articles-container{
+	width:1100px;
+	margin:0 auto;
+}
+
 .book-chapters a{
 	text-decoration: none;
 	color:#17594A;
@@ -107,6 +112,67 @@ h4{
 .featured-articles a:hover{
 	text-shadow:2px 2px 8px  rgba(142, 172, 90, .7);
 }
+
+/* Tablets - Screen Sizes ≤ 991px */
+		
+		@media (max-width:991px) {
+
+		#nav, #footer{float:none;width:auto;}
+		#footer{margin:0;}
+		#container{width:auto;}
+		h1 {text-align: center;}
+		#header{
+			margin-top:100px;
+			width:auto;
+		}
+
+		hr{
+			visibility: hidden;
+		}
+		#books, .book-title, .book-title p, .book-title h4 {
+			float:none;
+			width:auto;
+		}
+
+		#featured-articles-container, #book-chapters-container{
+			padding:10px;
+		}
+
+		#featured-articles-container, .featured-articles, .featured-articles a, .featured-articles h4{
+			width:auto;
+			float:none;
+			height:auto;
+			word-wrap: break-word;
+		}
+
+		.featured-articles h4{ width:auto; float:none;}
+
+		#book-chapters-container, .book-chapters, .book-chapters h4, .book-chapters p, .book-chapters a{
+			width:auto;
+			float:none;
+		}
+
+		.book-chapters p, .book-chapters h4 {
+			margin:10px;
+			padding:10px;
+		}
+	}
+
+		/* Mobile –Screen Sizes ≤ 767px */
+		
+		@media (max-width:767px) {
+			body {padding:0px;}
+		#nav, #header, #footer{float:none;width:auto;}
+		#footer li {width:auto; padding:20px;}
+		#footer ul{width:auto;}
+		h1{
+			font-size:2.2em;
+		}
+		#header{
+			margin-top:150px;
+		}
+
+		}
 
 </style>
 
@@ -169,7 +235,7 @@ h4{
 
 <hr>
 
-<div class="width-1100">
+<div id="featured-articles-container">
 <h2 class="width-1100">Featured Work</h2>
 
 <div class="featured-articles">
@@ -188,7 +254,7 @@ h4{
 
 <div class="featured-articles">
 	<a href="https://openrivers.lib.umn.edu/article/knowing-the-mississippi/" target="_blank"><img src="images/Mississippi-River.jpg" alt="View of the shore of the Mississippi River."/></a>
-	<h4>"<a href="https://openrivers.lib.umn.edu/article/knowing-the-mississippi/" target="_blank">How I Came to Know the Mississippi River</a></h4>
+	<h4>"<a href="https://openrivers.lib.umn.edu/article/knowing-the-mississippi/" target="_blank">How I Came to Know the Mississippi River</a>"</h4>
 	<p>We asked a diverse group of river people to respond to the prompt “How did you come to know the Mississippi River?  What does it mean, to you, to know the Mississippi River?” We present below a few of the responses, in no particular order...<a href="https://openrivers.lib.umn.edu/article/knowing-the-mississippi/" target="_blank">Read more</a></p>
 </div>
 
@@ -201,7 +267,7 @@ h4{
 
 </div> <!--end featured articles section-->
 <hr>
-<div class="width-1100">
+<div id="book-chapters-container">
 <h2 class="width-1100">Book Chapters & Articles</h2>
 
 <div class="book-chapters">

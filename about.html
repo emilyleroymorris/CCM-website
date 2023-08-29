@@ -33,8 +33,6 @@ h1{	margin-top: 0px;}
 	float: left;
 	padding: 10px;
 	width: 700px;
-    overflow: hidden;
-    text-overflow: ellipsis;
     line-height: 1.3;
 }
 
@@ -53,6 +51,48 @@ h1{	margin-top: 0px;}
 	text-shadow: 1px 2px 2px #8EAC50;
 }
 
+/* Tablets - Screen Sizes ≤ 991px */
+		
+		@media (max-width:991px) {
+
+		#nav, #footer{float:none;width:auto;}
+		#footer{margin:0;}
+		#container{width:auto;}
+		h1 {text-align: center;}
+		#header{
+			margin-top:100px;
+			width:auto;
+		}
+
+		hr{
+			visibility: hidden;
+		}
+		#biography, #biography p, #research, #other{
+			float:none;
+			width:auto;
+		}
+		img{float:none; margin:10px;}
+		}
+
+		#research p, #other p{
+			margin:10px;
+		}
+
+		/* Mobile –Screen Sizes ≤ 767px */
+		
+		@media (max-width:767px) {
+			body {padding:0px;}
+		#nav, #header, #footer{float:none;width:auto;}
+		#footer li {width:auto; padding:20px;}
+		#footer ul{width:auto;}
+		h1{
+			font-size:2.2em;
+		}
+		#header{
+			margin-top:150px;
+		}
+
+		}
 
 
 
