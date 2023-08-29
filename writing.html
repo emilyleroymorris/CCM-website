@@ -116,7 +116,7 @@ h4{
 /* Tablets - Screen Sizes ≤ 991px */
 		
 		@media (max-width:991px) {
-
+		body {padding:0px;}
 		#nav, #footer{float:none;width:auto;}
 		#footer{margin:0;}
 		#container{width:auto;}
@@ -127,7 +127,8 @@ h4{
 		}
 
 		hr{
-			visibility: hidden;
+			width:auto;
+			margin: 0 10px;
 		}
 		#books, .book-title, .book-title p, .book-title h4 {
 			float:none;
@@ -145,7 +146,8 @@ h4{
 			word-wrap: break-word;
 		}
 
-		.featured-articles h4{ width:auto; float:none;}
+		.featured-articles h4{ width:auto; float:none; margin:0px 5px;}
+		.featured-articles img{ margin:10px 5px; }
 
 		#book-chapters-container, .book-chapters, .book-chapters h4, .book-chapters p, .book-chapters a{
 			width:auto;
@@ -163,14 +165,10 @@ h4{
 		@media (max-width:700px) {
 			body {padding:0px;}
 		#nav, #header, #footer{float:none;width:auto;}
-		#footer li {width:auto; padding: 0 10px;}
+		#footer li {width:60px; padding: 0 7px;}
 		#footer ul{width:auto; margin-left:10%;}
-		h1{
-			font-size:2.2em;
-		}
-		#header{
-			margin-top:150px;
-		}
+		h1{font-size:2.2em;}
+		#header{margin-top:150px;}
 
 		}
 
@@ -323,7 +321,7 @@ h4{
 <div id="footer">
 			<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="writing.html">Writing & Research</a></li>
+			<li><a href="writing.html">Writing</a></li>
 			<li><a href="teaching.html">Teaching</a>
 			<li><a href="about.html">About</a></li>
 			<li><a href="contact.html">Contact</a></li>

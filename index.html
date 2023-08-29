@@ -119,23 +119,26 @@
 	/* Tablets - Screen Sizes ≤ 991px */
 		
 		@media (max-width:991px) {
-
+		body {padding:0px;}
 		#nav, #footer{float:none;width:auto;}
 		#footer{margin:0;}
 		#container, #highlights, #bio, .highlight-block {width:auto; float:none;}
 		.flex-caption{height: auto; font-size: 1em;}
 		.flex-control-thumbs {max-height:90px;}
 		.flexslider .slides img {
-			width:50em;
+			width:auto;
 			margin-top:50px;
 			margin:0 auto;
 			object-fit: cover;
 		}
-		#button-link {margin-left:0px; float:none; width:auto;}
+		
+		#button-link { width:auto;}
+		#button-link a{margin-left: 50%;}
 
 		#slider-block{
 			margin-left:20%;
 			margin-top:100px;
+			width:auto;
 		}
 		h1 {
 		margin-top:50px;
@@ -143,7 +146,8 @@
 		}
 
 		hr{
-			visibility: hidden;
+			width:auto;
+			margin: 0 10px;
 		}
 	}
 
@@ -152,7 +156,7 @@
 		@media (max-width:700px) {
 			body {padding:0px;}
 		#nav, #header, #slider-block, #highlights, #bio, #footer{float:none;width:auto;}
-		#footer li {width:auto; padding: 0 10px;}
+		#footer li {width:60px; padding: 0 7px;}
 		#footer ul{margin-left:10%;}
 		#button-link a{margin-left:30%;}
 		.flex-caption{height: auto; font-size: 1em;}
@@ -171,8 +175,22 @@
 			margin-top:90px;
 			font-size:2.2em;
 		}
+		#highlights p{
+			padding:0;
+			margin:10px 5px;
 		}
 
+		.highlight-block img{
+			margin:10px 5px;
+		}
+
+		.highlight-block{
+			float:none;
+			height:auto;
+			width:auto;
+			padding:0;
+		}
+		}
 
 </style>
 </head>
@@ -202,7 +220,7 @@
 <div id="container">
 
 <div id="bio">
-<p>Christopher Morris lives in Dallas, Texas, and is Professor of History at the University of Texas,Arlington. He is the author of two books, <em>Becoming Southern: The Evolution of a Way of Life,
+<p>Christopher Morris lives in Dallas, Texas, and is Professor of History at the University of Texas, Arlington. He is the author of two books, <em>Becoming Southern: The Evolution of a Way of Life,
 	Warren County and Vicksburg, Mississippi, 1770-1860</em>, and <em>The Big Muddy: An Environmental History of the Mississippi and Its Peoples from Hernando de Soto to Hurricane Katrina</em>. In addition, he has authored more than twenty articles, essays, and book chapters, and co-edited three essay collections, on subjects ranging from slavery in the sugarcane fields of Louisiana to climate change as revealed in the cartographic history of the Great Lakes. He is best known for his work on slavery and on the relationship between people and the natural environment in the American South. Morris holds a doctorate from the University of Florida. He has received several awards, including a Pulitzer nomination and a senior fellowship at the Stanford Humanities Center.</p>
 	<div id="button-link"><a href="mailto:morris@uta.edu">morris@uta.edu</a></div>
 </div>
@@ -237,28 +255,28 @@
 </div>
 </div>
 
-</div> <!-- end container-->
+
 
 <hr>
 <div id="highlights">
-<h2 class="width-1100">Current Highlights</h2>
+<h2 >Current Highlights</h2>
 
 <div class="highlight-block">
 	<a href="https://www.amazon.com/The-Big-Muddy-Environmental-Mississippi/dp/0195316916" target="_blank"><img src="images/dinner-convo.jpg" alt="screenshot of dinner convo Zoom stream"/></a>
 	<p><a href="https://www.thecommunity.garden/christopher-morris-university-of-texas-at-arlington/environmental-history-and-the-environmental-humanities-video-documentation" target="_blank">"The Environmental Humanities: Side Dish or Main Course? A Dinner Conversation</a>" In this video re-enactment of a true event, several historians and literary scholars gather around the dinner table to enjoy a meal and to discuss the disciplinary and philosophical perspectives of environmental history...</p>
-</div>
+<div class="clearfloat"></div></div>
 
 <div class="highlight-block">
 	<a href="about.html#research"><img src="images/Mississippi-River-2.jpeg" alt="Overhead shot of Mississippi river."/></a>
 	<p> "<a href="about.html#research">Chemistry, Capitalism, and the Commodification of Nitrogen</a>," Morris, C. (Author & Presenter), 2023 Research Conference at Centenary College, Shreveport, Louisiana. (April 20, 2023)</p>
-</div>
+<div class="clearfloat"></div></div>
 
 <div class="clearfloat"></div>
 
 <div class="highlight-block">
 	<a href="https://www.amazon.com/The-Big-Muddy-Environmental-Mississippi/dp/0195316916" target="_blank"><img src="images/big-muddy.jpg" alt="Big Muddy book cover"/></a>
 	<p><em><a href="https://www.amazon.com/The-Big-Muddy-Environmental-Mississippi/dp/0195316916">The Big Muddy: An Environmental History of the Mississippi and Its Peoples from Hernando de Soto to Hurricane Katrina.</a></em> New York: Oxford University Press, 2012; The first long-term environmental history of the Mississippi, this book spans five centuries to discuss the interaction between people and the landscape, from early hunter-gatherer bands to present-day industrial and post-industrial society.</p>
-</div>
+<div class="clearfloat"></div></div>
 
 <div class="highlight-block">
 	<a href="https://www.amazon.com/Becoming-Southern-Evolution-Vicksburg-Mississippi/dp/0195134214" target="_blank"><img src="images/becoming-southern.jpg" alt="Book cover of Becoming Southern."/></a>
@@ -270,7 +288,7 @@
 <div class="highlight-block">
 	<a href="https://lsupress.org/books/detail/charting-the-plantation-landscape-from-natchez-to-new-orleans/" target="_blank"><img src="images/Mississippi-River.jpg" alt="Photo of Mississippi River."/></a>
 	<p>"<a href="https://lsupress.org/books/detail/charting-the-plantation-landscape-from-natchez-to-new-orleans/" target="_blank">The Rise and Fall of Uncle Sam Plantation</a>,” Charting the Plantation Landscape: Natchez to New Orleans, ed. Laura Kilcer VanHuss (Baton Rouge: LSU Press, 2021), 191-222.</p>
-</div>
+<div class="clearfloat"></div></div>
 
 <div class="highlight-block">
 	<a href="https://www.youtube.com/watch?v=6-axPPKrU98&ab_channel=UnfurrowedGroundFoundation" target="_blank"><img src="images/davis-cup.jpg" alt="Presenting on history of Davis Cup"/></a>
@@ -284,14 +302,14 @@
 <div id="footer">
 			<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="writing.html">Writing & Research</a></li>
+			<li><a href="writing.html">Writing</a></li>
 			<li><a href="teaching.html">Teaching</a>
 			<li><a href="about.html">About</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 
 </div>
-
+</div> <!-- end container-->
 <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
 
